@@ -50,3 +50,6 @@ windows  .\.venv\Scripts\activate
 pip install -r requirements.txt
 streamlit run Chatbot.py
 ```
+
+exiting python viertual environment 
+deactivate
