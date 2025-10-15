@@ -41,9 +41,21 @@ OPENAI_API_KEY='xxxxxxxxxx'
 ```
 
 ## Run it locally
-
+create a virtual environment in Python
 ```sh
+
+cd path/to/your/project
+
+//Use the built-in venv module to create a new virtual environment. A common convention is to name the virtual environment directory .venv (which keeps it hidden in most file explorers
+
+python -m venv .venv
+
+or If you are on a system where python refers to Python 2, you might need to use python3 instead:
+
+python3 -m venv .venv
+
 virtualenv .venv
+
 Mac source .venv/bin/activate
 windows  .\.venv\Scripts\activate
 
