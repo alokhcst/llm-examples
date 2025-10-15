@@ -44,7 +44,9 @@ OPENAI_API_KEY='xxxxxxxxxx'
 
 ```sh
 virtualenv .venv
-source .venv/bin/activate
+Mac source .venv/bin/activate
+windows  .\.venv\Scripts\activate
+
 pip install -r requirements.txt
 streamlit run Chatbot.py
 ```
